@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-bar{
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+button {
+    min-width: 50px !important;
+}
+.btn{
+    background: transparent;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+}
+.btn:hover{
+    opacity:0.9
+}
+.page-info{
+    margin-left: 1rem;
+}
+i.fas.fa-arrow-circle-left,
+i.fas.fa-arrow-circle-right {
+    font-size: 17px;
+    /* margin-left: 10px; */
+}
+.fa-arrow-circle-left:before,
+.fa-arrow-circle-right:before
+ {
+    margin-right: 10px;
+}
+.error{
+    background-color: orangered;
+    color: #fff;
+    padding: 1rem;
+}
